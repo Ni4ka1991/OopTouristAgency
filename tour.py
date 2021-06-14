@@ -9,3 +9,18 @@ class _Tour:
   def calculateCost(self):
     ???
     return ???
+  
+  class TourBuilder:
+  def __init__(self,destination,name,tourists,period):
+    self._tour = _Tour(destination,name,tourists,period)
+  def withEnsurance(self):
+    ???
+    return self
+  def withEnsurance(self):
+    ???
+    return self 
+  def withGuide(self):
+    ???
+    return self        
+  def build(self):
+    return self._tour      
