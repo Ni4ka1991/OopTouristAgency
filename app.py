@@ -12,15 +12,18 @@ print(price_1)
 
 
 new_period = Period( "25.06.2021", "27.06.2021" )
-print( new_period )
-
-date_list = Period.timeStrConvert( "21.01.2021" )
-print(date_list)
-print(date_list[0])
-print(type(date_list[0]))
 
 
-#date = Period.dateTime( 2021, 12, 5 )
+
+
+
+
+#print( new_period )
+
+#date_list = Period.timeStrConvert( "21.01.2021" )
+
+
+#date = Period.dateTime( date_list )
 #print(date)
 
 
